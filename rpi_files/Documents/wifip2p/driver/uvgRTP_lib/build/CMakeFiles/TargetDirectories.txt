@@ -1,0 +1,7 @@
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/install/strip.dir
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/edit_cache.dir
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/list_install_components.dir
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/uvgrtp.dir
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/install.dir
+/home/pi/Documents/wifip2p/driver/uvgRTP_lib/build/CMakeFiles/install/local.dir

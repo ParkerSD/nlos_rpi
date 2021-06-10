@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="p2p_driver" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/p2p_driver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="sudo" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+					<Add library="../uvgRTP_lib/build/libuvgrtp.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/p2p_driver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="/home/pi/Documents/wifip2p/driver/wpa_supplicant_lib" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="../wpa_supplicant-2.9/src/common" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="/home/pi/Documents/wifip2p/driver/wpa_supplicant_lib/wpa_ctrl.o" />
+			<Add option="/home/pi/Documents/wifip2p/driver/wpa_supplicant_lib/os_unix.o" />
+			<Add directory="/home/pi/Documents/wifip2p/driver/wpa_supplicant_lib" />
+		</Linker>
+		<Unit filename="command_executor.cpp" />
+		<Unit filename="command_executor.h" />
+		<Unit filename="command_handler.cpp" />
+		<Unit filename="command_handler.h" />
+		<Unit filename="connect.cpp" />
+		<Unit filename="connect.h" />
+		<Unit filename="ip_exchanger.cpp" />
+		<Unit filename="ip_exchanger.h" />
+		<Unit filename="p2p_go_socket_utils.cpp" />
+		<Unit filename="p2p_go_socket_utils.h" />
+		<Unit filename="scripts/dispose_p2p.sh" />
+		<Unit filename="scripts/init_config.sh" />
+		<Unit filename="scripts/start_fresh_p2p_search.sh" />
+		<Unit filename="tcp_p2p_go_socket.cpp" />
+		<Unit filename="tcp_p2p_go_socket.h" />
+		<Unit filename="udp_p2p_go_socket.cpp" />
+		<Unit filename="udp_p2p_go_socket.h" />
+		<Extensions>
+			<code_completion>
+				<search_path add="../wpa_supplicant-2.9/src/common" />
+			</code_completion>
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

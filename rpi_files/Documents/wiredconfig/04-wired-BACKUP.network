@@ -1,0 +1,7 @@
+[Match]
+Name=e*
+[Network]
+LLMNR=no
+LinkLocalAddressing=no
+MulticastDNS=yes
+DHCP=ipv4

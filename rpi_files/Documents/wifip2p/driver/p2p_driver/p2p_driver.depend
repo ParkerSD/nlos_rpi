@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1621762063 source:/home/pi/Documents/wifip2p/driver/p2p_driver/connect.cpp
+	"connect.h"
+	"ip_exchanger.h"
+	"command_handler.h"
+	<iostream>
+	<cstddef>
+	<wpa_ctrl.h>
+	<cstdlib>
+	<signal.h>
+	<unistd.h>
+	<thread>
+
+1565184325 /home/pi/Documents/wifip2p/driver/wpa_supplicant-2.9/src/common/wpa_ctrl.h
+
+1565184325 /home/pi/Documents/wifip2p/driver/wpa_supplicant_lib/wpa_ctrl.h
+
+1621679831 /home/pi/Documents/wifip2p/driver/p2p_driver/connect.h
+	<string>
+
+1621364915 source:/home/pi/Documents/wifip2p/driver/p2p_driver/p2p_go_socket.cpp
+	"p2p_go_socket.h"
+	<cstddef>
+	<iostream>
+	<string>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<unistd.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<thread>
+	<errno.h>
+	<chrono>
+
+1621364233 /home/pi/Documents/wifip2p/driver/p2p_driver/p2p_go_socket.h
+	<stddef.h>
+
+1621575519 /home/pi/Documents/wifip2p/driver/p2p_driver/udp_p2p_go_socket.h
+	<stddef.h>
+	<netinet/in.h>
+	<string>
+
+1621674205 source:/home/pi/Documents/wifip2p/driver/p2p_driver/tcp_p2p_go_socket.cpp
+	"tcp_p2p_go_socket.h"
+	"p2p_go_socket_utils.h"
+	<uvgrtp/lib.hh>
+	<cstddef>
+	<netdb.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<netdb.h>
+	<errno.h>
+
+1621670507 source:/home/pi/Documents/wifip2p/driver/p2p_driver/p2p_go_socket_utils.cpp
+	"p2p_go_socket_utils.h"
+	<cstddef>
+	<iostream>
+	<string>
+	<unistd.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<errno.h>
+
+1621672830 /home/pi/Documents/wifip2p/driver/p2p_driver/p2p_go_socket_utils.h
+	<netdb.h>
+	<string>
+
+1621672830 source:/home/pi/Documents/wifip2p/driver/p2p_driver/udp_p2p_go_socket.cpp
+	"p2p_go_socket_utils.h"
+	"udp_p2p_go_socket.h"
+	<cstddef>
+	<iostream>
+	<string>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<unistd.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<thread>
+	<errno.h>
+	<chrono>
+
+1621673415 /home/pi/Documents/wifip2p/driver/p2p_driver/tcp_p2p_go_socket.h
+	<string>
+	<sys/socket.h>
+
+1621762251 source:/home/pi/Documents/wifip2p/driver/p2p_driver/command_handler.cpp
+	"p2p_go_socket_utils.h"
+	"tcp_p2p_go_socket.h"
+	"command_handler.h"
+	"command_executor.h"
+	<sys/socket.h>
+	<sys/un.h>
+	<cstddef>
+	<unistd.h>
+	<thread>
+	<mutex>
+	<iostream>
+	<stdio.h>
+	<string>
+
+1621762161 /home/pi/Documents/wifip2p/driver/p2p_driver/command_handler.h
+
+1621575519 /home/pi/Documents/wifip2p/driver/p2p_driver/ip_exchanger.h
+
+1621747866 source:/home/pi/Documents/wifip2p/driver/p2p_driver/ip_exchanger.cpp
+	"p2p_go_socket_utils.h"
+	"tcp_p2p_go_socket.h"
+	"udp_p2p_go_socket.h"
+	<uvgrtp/lib.hh>
+	<cstddef>
+	<iostream>
+	<string>
+	<unistd.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<netdb.h>
+	<errno.h>
+
+1621762234 source:/home/pi/Documents/wifip2p/driver/p2p_driver/command_executor.cpp
+	"command_executor.h"
+	<iostream>
+
+1621762064 /home/pi/Documents/wifip2p/driver/p2p_driver/command_executor.h
+
